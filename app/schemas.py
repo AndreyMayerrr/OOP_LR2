@@ -12,7 +12,7 @@ class TodoUpdate(TodoBase):
 
 class Todo(TodoBase):
     id: int
-    progress: float  # Процент выполнения задач
+    progress: float  # Процент выполнения задач 
 
     class Config:
         from_attributes = True
